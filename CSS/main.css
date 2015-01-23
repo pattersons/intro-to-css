@@ -16,4 +16,31 @@
       color: limegreen;
       font-weight: normal;
       font-size: 5rem;
+      line-height: 1;
+      /*
+      text-shadow:
+        horizontal offset
+        vertial offset
+        blur radius/size
+        colour
+      */
+      text-shadow: 2px -5px 10px red;
+      font-family: 'Francois One', sans-serif;
+    }
+
+    p {
+      font-style: italic; /* italic,normal */
+      text-decoration: line-through; /* underline,none,line-through */
+      text-align: center; /* left,center,right,justify */
+      font-family: Arial,sans-serif;
+    }
+
+    ol {
+       list-style-type: none;
+       /*
+          none
+          decimal,circle,lower-alpha,lower-roman,upper-alpha,
+          upper-roman, square, disc
+       */
+       padding: 0;
     }
