@@ -1,3 +1,19 @@
+/* This is a CSS comment */
   html {
-    background-color: green;
-  }
+    background-color: #818dcc;
+    /*
+      Black: # 000
+      White: # fff
+      Red: # f00
+      Blue: # 00f
+      Grey: # 333
+      */
+      color: #fff
+
+    }
+
+    h1 {
+      color: limegreen;
+      font-weight: normal;
+      font-size: 5rem;
+    }
